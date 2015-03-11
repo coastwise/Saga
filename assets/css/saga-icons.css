@@ -1,0 +1,120 @@
+/*
+  Icon Font: saga-icons
+*/
+
+@font-face {
+  font-family: "saga-icons";
+  src: url("./saga-icons.eot");
+  src: url("./saga-icons.eot?#iefix") format("embedded-opentype"),
+       url("./saga-icons.woff") format("woff"),
+       url("./saga-icons.ttf") format("truetype"),
+       url("./saga-icons.svg#saga-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "saga-icons";
+    src: url("./saga-icons.svg#saga-icons") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.fa-clock-o:before,
+.fa-comments:before,
+.fa-gamepad:before,
+.fa-github-alt:before,
+.fa-heart:before,
+.fa-jam:before,
+.fa-plus-circle:before,
+.fa-rss:before,
+.fa-spinner:before,
+.fa-steam:before,
+.fa-steam-square:before,
+.fa-tag:before,
+.fa-tags:before,
+.fa-twitch:before,
+.fa-twitter:before,
+.fa-user:before,
+.fa-vine:before {
+  display: inline-block;
+  font-family: "saga-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.fa-clock-o:before { content: "\f111"; }
+.fa-comments:before { content: "\f101"; }
+.fa-gamepad:before { content: "\f102"; }
+.fa-github-alt:before { content: "\f103"; }
+.fa-heart:before { content: "\f104"; }
+.fa-jam:before { content: "\f105"; }
+.fa-plus-circle:before { content: "\f106"; }
+.fa-rss:before { content: "\f107"; }
+.fa-spinner:before { content: "\f108"; }
+.fa-steam:before { content: "\f109"; }
+.fa-steam-square:before { content: "\f10a"; }
+.fa-tag:before { content: "\f10b"; }
+.fa-tags:before { content: "\f10c"; }
+.fa-twitch:before { content: "\f10d"; }
+.fa-twitter:before { content: "\f10e"; }
+.fa-user:before { content: "\f10f"; }
+.fa-vine:before { content: "\f110"; }
+
+.fa-spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}

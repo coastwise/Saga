@@ -6,15 +6,18 @@ dl {
 
 dl dt {
     float: left;
-    width: 180px;
-    clear: left;
+    width: 30%; /* 180px of 600 */
+    clear: both;
     text-align: right;
     font-weight: 700;
     margin-bottom: 1em;
 }
 
 dl dd {
-    margin-left: 200px;
+    float: right;
+    clear: right;
+    width: 66.6667%; /* would rather use 'available' */
+    margin-left: 0; /* undo default browser styling */
     margin-bottom: 1em
 }
 

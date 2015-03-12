@@ -17,3 +17,10 @@ dl dd {
     margin-left: 200px;
     margin-bottom: 1em
 }
+
+/* ensure dl contains all floating dt */
+dl:after {
+    content: "";
+    display: block;
+    clear: both;
+}

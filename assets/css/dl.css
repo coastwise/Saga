@@ -13,6 +13,10 @@ dl dt {
     margin-bottom: 1em;
 }
 
+dl.by-jam dt {
+    font-weight: normal;
+}
+
 dl dd {
     float: right;
     clear: right;
